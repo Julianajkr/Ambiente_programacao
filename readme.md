@@ -99,3 +99,45 @@ Para instalar basta fazer o download no link a seguir:
  <img src=telafinal.png>
 
 
+
+
+
+
+
+
+
+
+
+
+#### Instalação do compilador NASM
+O compilador NASM é uma ferramenta que nos permite programar 
+em Assembly. Assim é possível criar programas que manipulam
+dados que estão nos registradores de processador.
+
+Para instalar o NASM no Ubuntu, usamos o comando:
+...
+sudo apt install nasm -y
+...
+
+#### Instalação do compilador da linguagem C
+
+Em linux, o compilador da Linguagem C é o GCC. Ele é uma
+ferramenta importante para o desenvolvimento de programas
+em C.
+
+Para instalar use o comando:
+...
+sudo apt install gcc -y
+...
+
+
+#### Conexão Servidor e VSCode via SSH
+Precisamos instalar uma extensão no VSCode para acessar o nosso servidor de forma remota.
+
+
+
+!["Extensão SSH"](telassh.png)
+
+Configuração do acesso remoto.
+
+!["Configuração"](configurarextensao.png)
